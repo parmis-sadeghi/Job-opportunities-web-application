@@ -1,0 +1,22 @@
+.signup{
+    width: 260px;
+    height: 48px;
+    background-color: #B4DEF5;
+    border: 2px solid #303C6C;
+    color: #303C6C;
+    font-size: x-large;
+}
+.job_seeker{
+    width: 115px;
+    height: 80px;
+    background-color: #B4DEF5;
+    border: 2px solid #303C6C;
+    color: #303C6C;
+}
+.employee{
+    width: 115px;
+    height: 80px;
+    background-color: #B4DEF5;
+    border: 2px solid #303C6C;
+    color: #303C6C;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/jobseeker.css" />
+    <title>jobseeker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12 mt-5">
+              <p class="profile_picture">profile picture</p>
+              <p class="profile_name">welcome [name]!</p>
+            </div>
+          </div>
+          <div class="row">
+            <a href="" class="jobseeker_menu">Editing Resume</a>
+            <a href="" class="jobseeker_menu">Change password</a>
+            <a href="" class="jobseeker_menu">Delete account</a>
+            <a href="" class="jobseeker_menu">Applications status</a>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div class="row mt-2">
+            <div class="col-md-12 right">
+              <a href="sidebar.html">
+              <button class="menu_class">menu</button>
+              </a>
+            </div>
+          </div>
+          <div class="row jobseeker_search_section">
+            <div class="col-md-1">
+              <img src="img/search.icon.svg" alt="" />
+            </div>
+            <div class="col-md-11">
+              <input
+                style="height: 60px"
+                type="text"
+                class="form-control"
+                placeholder="search for job opportunities..."
+                name=""
+                id=""
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 jobseeker_table_section">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Job Title</th>
+                    <th scope="col">Skills</th>
+                    <th scope="col">Salary</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Junior FrontEnd developer</td>
+                    <td>HTML, CSS, Javsscript, React.js, Tailwinds</td>
+                    <td>45,000 €</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Mid-Level FrontEnd Developer</td>
+                    <td>React.js, Javscript, Redux, Animate.js</td>
+                    <td>55,000 €</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Senior FrontEnd Developer</td>
+                    <td>React.js, Javscript, Three.js, Axios.js</td>
+                    <td>70,000 €</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</html>

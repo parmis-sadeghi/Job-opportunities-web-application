@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>Login</title>
+  </head>
+  <body class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 mt-5 box-shadow p-4">
+          <main class="form-signin">
+            <div
+              class="btn-group mt-3"
+              role="group"
+              aria-label="Basic radio toggle button group"
+            >
+            
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="btnradio1"
+                autocomplete="off"
+                checked
+              />
+              <label class="btn btn-outline-primary" for="btnradio1" style="width: 130px; border: 2px solid #303C6C;"
+                >Login</label
+              >
+            
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="btnradio3"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary" for="btnradio3" style="width: 130px; border: 2px solid #303C6C;"
+                >Sign in</label
+              >
+            </div>
+                <br>
+                <br>
+
+            <br> <br>
+            <form action="signup.html">
+              <div class="left">
+                <label for="floatingInput">Enter username:</label>
+              </div>
+              <input type="text" class="form-control bg_color" id="floatingInput" />
+              <br />
+              <div class="left">
+                <label for="floatingPassword">Enter password:</label>
+              </div>
+              <input
+                type="password"
+                class="form-control bg_color"
+                id="floatingPassword"
+              />
+              <div class="right">
+                <a href="#">forget password?</a>
+              </div>
+
+              <button
+                class="w-100 btn btn-lg btn-outline-primary mt-4"
+                type="button" style="color: #303C6C; border: 2px solid #303C6C;"
+              >
+                Sign in
+              </button>
+
+              <button
+                class="w-100 btn btn-lg btn-outline-primary mt-3"
+                type="submit" style="color: #303C6C; border: 2px solid #303C6C;"
+              >
+                Don’t have an account? create one.
+              </button>
+            </form>
+          </main>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</html>

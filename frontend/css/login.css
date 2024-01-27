@@ -1,0 +1,15 @@
+
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #B4DEF5;
+}
+a {
+    font-size: 9px;
+}
+.bg_color{
+    background-color: #B4DEF5;
+    border: 2px solid #F4976C;
+}
+body{
+    background: #D2FDFF;
+}

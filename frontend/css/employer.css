@@ -1,0 +1,29 @@
+body{
+    background: #D2FDFF;
+}
+.profile_picture {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding-top: 15px;
+    float: left;
+}
+
+.profile_name {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.menu_class {
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+}
+.employer_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.employer_table_layout{
+    background-color: white;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/incorect_password.css" />
+    <link rel="stylesheet" href="./css/login.css">
+    <title>incorect_password</title>
+  </head>
+  <body class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 mt-5 box-shadow p-4">
+          <main class="form-signin">
+            <div
+              class="btn-group mt-3"
+              role="group"
+              aria-label="Basic radio toggle button group"
+            >
+            
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="btnradio1"
+                autocomplete="off"
+                checked
+              />
+              <label class="btn btn-outline-primary" for="btnradio1"
+                >Login</label
+              >
+            
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="btnradio3"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary" for="btnradio3"
+                >Sign in</label
+              >
+            </div>
+                <br>
+                <br>
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn btn-outline-danger">Employer</button>
+                <button type="button" class="btn btn-outline-success">  Job Seeker</button>
+            </div>
+
+            <br> <br>
+            <form>
+              <div class="left">
+                <label for="floatingInput" style="color: #303C6C;">Enter username:</label>
+              </div>
+              <input type="text" class="form-control bg_color" id="floatingInput" />
+              <br />
+              <div class="left">
+                <label for="floatingPassword" style="color: #303C6C;">Enter password:</label>
+              </div>
+              <input
+                type="password"
+                class="form-control bg_color"
+                id="floatingPassword"
+              />
+              <div class="right">
+                <a href="#">forget password?</a>
+              </div>
+              <button
+                class="incorect_password_button"
+                type="submit"
+              >
+            sorry! username and password aren't match.
+            try again.
+              </button>
+            </form>
+          </main>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</html>
